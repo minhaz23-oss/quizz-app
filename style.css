@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(33, 33, 61);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 600px;
+    min-height: 100px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+
+}
+.box h1{
+    font-weight: 600;
+    font-size: 25px;
+    color:  rgb(33, 33, 61);
+    border-bottom: 1px solid rgb(33, 33, 61);
+    padding-bottom: 20px;
+}
+.questions h2{
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(33, 33, 61);
+}
+.answers h2{
+    color:  rgb(33, 33, 61);
+    margin: 20px 0;
+}
+.answers .btn{
+    width: 100%;
+    border: 1px solid  rgb(33, 33, 61);
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    text-align: left;
+    transition: 0.3s ;
+}
+.btn:hover{
+    background-color: rgb(33, 33, 61);
+    color: white;
+}
+.next-btn button{
+    color: red;
+}
+.next-btn {
+    padding : 10px 20px ;
+    background-color: rgb(34, 34, 90);
+    border-radius: 4px;
+    color: white;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.3s;
+
+}
+.next-btn:hover{
+    background-color: rgb(74, 74, 151);
+}
